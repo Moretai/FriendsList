@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Btus_goods" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="mbtn_Bg_png" x="0" y="6"/>
+	<e:Image source="mbtn_BgFc_png" x="1" y="6" includeIn="down"/>
+	<e:Button label="" x="2" y="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="mbtnGoods_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

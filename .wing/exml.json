@@ -1,0 +1,15 @@
+{
+    "global": {
+        "globalAutoLayerMarkEnable": true
+    },
+    "164a6d26e51": {
+        "path": "..\\resource\\eui_skins\\buttonModel.ts",
+        "class": "buttonModel",
+        "parentPath": ""
+    },
+    "164a8524ddf": {
+        "path": "..\\resource\\eui_skins\\game\\BtusList.ts",
+        "class": "BtusList",
+        "parentPath": ""
+    }
+}

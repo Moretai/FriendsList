@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AboutPanel" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="about_png"/>
+	<e:Button id="close" label="" x="395.67" y="214.66" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="开发者：白鹭时代\n版本号：1.0\n使用Egret引擎开发" x="197" y="323.67" anchorOffsetX="0" width="200" anchorOffsetY="0" height="63" size="20" fontFamily="Lucida Family"/>
+</e:Skin>

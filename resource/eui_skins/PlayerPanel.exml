@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIPanel" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="-1.46" y="0" source="commonBg_jpg"/>
+	<e:Image source="profileTitle_png" x="176.02" verticalCenter="-246.5"/>
+	<e:Image source="profileContent_png" x="29.04" y="187.42"/>
+	<e:Image source="skillBg_png" x="35.86" y="464.42" anchorOffsetY="0" height="126.91" anchorOffsetX="0" width="407.29"/>
+	<e:Button id="btn_return" label="" x="23" y="132">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" source="btnReturn_png" source.down="btnReturn_png" width.down="110%" height.down="110%"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="fit" label="" x="132.81" y="648.89" anchorOffsetX="80.29" anchorOffsetY="27.28">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btnEquip_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="intensify" label="" x="350.31" y="648.88" anchorOffsetX="81.81" anchorOffsetY="27.27">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btnStrengthen_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="388" height="112" x="44.01" y="474.66" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Skin>
+			<e:HScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+			<e:Skin>
+				<e:Image id="thumb" width="8" source="hScrollBar01_png"  scale9Grid="1,1,4,4"/>
+			</e:Skin>
+			</e:HScrollBar>
+		</e:Skin>
+		<e:Group anchorOffsetX="0" width="574.67" x="-1.33" y="0" anchorOffsetY="0" height="105.34">
+			<e:List id="equips" height="106.67" x="3.99" y="3.99" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="Equip">
+				<e:layout>
+					<e:HorizontalLayout gap="4"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

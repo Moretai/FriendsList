@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIPanel" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="homeBg_jpg" x="0" y="0"/>
+	<e:Group id="group_btns" width="457.57" height="83.34" x="10.82" y="712.48" anchorOffsetY="0" anchorOffsetX="0">
+		<e:ToggleButton id="tog_player" label="" x="2.34" y="-2" name="player" skinName="Btus_player">
+		</e:ToggleButton>
+		<e:ToggleButton id="tog_hero" label="" x="115" y="-0.36" name="hero" skinName="Btus_hero">
+		</e:ToggleButton>
+		<e:ToggleButton id="tog_goods" label="" x="228" y="2" name="goods" skinName="Btus_goods">
+		</e:ToggleButton>
+		<e:ToggleButton id="tog_about" label="" x="340" y="0" name="about" skinName="Btus_about">
+		</e:ToggleButton>
+		<e:layout>
+			<e:HorizontalLayout gap="3" horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lab_show" text="你选择了:" x="11.82" y="377.67" anchorOffsetX="0" anchorOffsetY="0" height="44.67" verticalAlign="middle" textAlign="left" size="20" width="289" textColor="0xf79e0c" fontFamily="KaiTi_GB2312"/>
+	<e:Image id="img_head" width="60" height="60" x="3" y="7" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="lab_name" text="" x="67" y="30" anchorOffsetX="0" width="145" anchorOffsetY="0" height="28" size="20" textColor="0xdba71c" verticalAlign="middle" textAlign="center"/>
+	<e:Button id="btn_share" label="分享" x="358.82" y="200" anchorOffsetX="0" width="93"/>
+	<e:Button id="btn_ranking" label="排行榜" x="358.82" y="300" anchorOffsetX="0" width="93"/>
+</e:Skin>
